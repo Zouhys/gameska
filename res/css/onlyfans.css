@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  #background02 {
+    background-image: url(../img/onlyfans_logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .arrowforward {
+    background-image: url(../img/arrow_forward.png);
+    height: 103px;
+    width: 180px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+  }
+
+  #profile {
+    background-image: url(../img/lucinka_profile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    border: none;
+    border-radius: 3em; 
+  }
+
+  #profile:hover {
+    transform: scale(1.1);
+  }
+
+  #counter {
+    position: absolute;
+    top: 65%;
+    left: 53%;
+  }
+  #nomon {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+  }
+  .container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: row;
+    overflow: auto;
+    height: 100%;
+    gap: 5px;
+  }
+   .box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: .4s;
+  display: flex;
+  font-size: 15px;
+   }
+
+   .box1{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box2{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box3{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box4{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box5{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box6{
+    background-image: url(../img/silence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  
+  

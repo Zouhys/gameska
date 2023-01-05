@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  /*    baba    */
+
+  #background03 {
+    background-image: url(../img/lake.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #reyko {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    background-image: url(../img/reykoboat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.05;
+  }
+  
+  #zeman {
+    width: 370px;
+    height: 150px;
+    position: absolute;
+    right: 25%;
+    top: 45%;
+    background-image: url(../img/zeman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #reykoHP {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color:white;
+  }
+  
+
+  #babaHP {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    color: white;
+  }
+
+  #attack {
+    position: absolute;
+    background-image: url(../img/padlo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 60%;
+    left: 28%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .arrowback {
+    background-image: url(../img/arrow_back.png);
+    height: 103px;
+    width: 180px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+  
+  .arrowforward {
+    background-image: url(../img/arrow_forward.png);
+    height: 103px;
+    width: 180px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+  }
+
+  #infod {
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    font-family: "Georgia", Serif;
+    font-size: 30px;
+    color: black;
+  }
+
+  #psled {
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    font-family: "Georgia", Serif;
+    font-size: 30px;
+  }

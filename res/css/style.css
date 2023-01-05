@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/*   index   */
+
+#background01 {
+  background-image: url(../img/pozadi.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#info {
+  text-align: center;
+  position: absolute;
+  top: 4%;
+  left: 32%;
+  font-family:  "Garamond", serif;
+  font-size: 20px;
+  color: black;
+}
+
+#onlyfans {
+  position: absolute;
+  top: 75%;
+  left: 3%;
+}
+
+#legends {
+  position: absolute;
+  top: 75%;
+  right: 3%;
+}
+
+.arrowback {
+  background-image: url(../img/arrow_back.png);
+  height: 103px;
+  width: 180px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+.arrowforward {
+  background-image: url(../img/arrow_forward.png);
+  height: 103px;
+  width: 180px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 75%;
+  right: 5%;
+}
+
+#sledovanostc, #vydelavka, #reykoHP, #attack {
+  font-family: "Papyrus", fantasy ;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+}
+#sledovanostc {
+top: 10%;
+left: 0%;
+}
+#vydelavka{
+  top: 20%;
+  left: 0%;
+}
+#reykoHP{
+  top: 30%;
+  left: 0%;
+}
+#attack {
+top: 30%;
+left: 20%;
+}
+
+
+
+
